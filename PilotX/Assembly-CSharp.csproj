@@ -62,9 +62,17 @@
     <Compile Include="Assets\Scripts\Helper\ColorCorrectionCurves.cs" />
     <Compile Include="Assets\Scripts\Interactable.cs" />
     <Compile Include="Assets\Scripts\Interactables\SignPost.cs" />
+    <Compile Include="Assets\Scripts\InventoryController.cs" />
+    <Compile Include="Assets\Scripts\Item.cs" />
+    <Compile Include="Assets\Scripts\IWeapon.cs" />
     <Compile Include="Assets\Scripts\Npc.cs" />
     <Compile Include="Assets\Scripts\NPCs\Guenter.cs" />
     <Compile Include="Assets\Scripts\NPCs\Uschi.cs" />
+    <Compile Include="Assets\Scripts\PlayerWeaponController.cs" />
+    <Compile Include="Assets\Scripts\Stat.cs" />
+    <Compile Include="Assets\Scripts\StatBonus.cs" />
+    <Compile Include="Assets\Scripts\Stats\CharacterStats.cs" />
+    <Compile Include="Assets\Scripts\Weapons\Sword.cs" />
     <Compile Include="Assets\Scripts\WorldInteraction.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>I:/git/unity/PilotX/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>

@@ -6,6 +6,8 @@ namespace Interactables
 	{
 		protected override void Interact()
 		{
+			DialogueSystem.Instance.AddNewDialogue(Dialogue, Name);
+			
 			Debug.Log("Interacted with " + Name);
 		}
 		
@@ -13,6 +15,8 @@ namespace Interactables
 		{
 			Name = "Sign Post";
 			StoppingDistance = 1f;
+			Dialogue = new string[1];
+			Dialogue[0] = "WARNING! Do not enter!";
 		}
 	}
 }

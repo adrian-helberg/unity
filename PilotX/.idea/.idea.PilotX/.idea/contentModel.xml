@@ -25,10 +25,22 @@
           <e p="Interactables" t="Include">
             <e p="SignPost.cs" t="Include" />
           </e>
+          <e p="InventoryController.cs" t="Include" />
+          <e p="Item.cs" t="Include" />
+          <e p="IWeapon.cs" t="Include" />
           <e p="NPC.cs" t="Include" />
           <e p="NPCs" t="Include">
             <e p="Guenter.cs" t="Include" />
             <e p="Uschi.cs" t="Include" />
+          </e>
+          <e p="PlayerWeaponController.cs" t="Include" />
+          <e p="Stat.cs" t="Include" />
+          <e p="StatBonus.cs" t="Include" />
+          <e p="Stats" t="Include">
+            <e p="CharacterStats.cs" t="Include" />
+          </e>
+          <e p="Weapons" t="Include">
+            <e p="sword.cs" t="Include" />
           </e>
           <e p="WorldInteraction.cs" t="Include" />
         </e>

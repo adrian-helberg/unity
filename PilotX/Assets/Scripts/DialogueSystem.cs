@@ -9,7 +9,7 @@ public class DialogueSystem : MonoBehaviour
 {
     [HideInInspector] public string NpcName;
     [HideInInspector] public List<string> DialogueLines = new List<string>();
-    public static DialogueSystem Instance { get; private set; }
+    public static DialogueSystem Instance;
     public GameObject DialoguePanel;
     
     private Button _continueButton;
